@@ -3,7 +3,7 @@ import './navbar.css'
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from "react-router-dom";
 
 import icone from '../../assets/imgs/icons/icon.png'
 
@@ -19,8 +19,8 @@ const navbar = (props) => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                        <Nav.Link href="/oficial5c">Home</Nav.Link>
-                        <Nav.Link href="/oficial5c/regras">Regras</Nav.Link>
+                        <Link to="/oficial5c" className="nav-link">Home</Link>
+                        <Link to="/oficial5c/regras" className="nav-link">Regras</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
