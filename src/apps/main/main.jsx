@@ -8,8 +8,8 @@ import Rules from '../../views/rules/rules'
 const main = props => (
     <BrowserRouter>
         <Switch>
-            <Route path="/" exact > <Home /></Route>
-            <Route path="/regras" > <Rules /></Route>
+            <Route path="/oficial5c" exact > <Home /></Route>
+            <Route path="/oficial5c/regras" > <Rules /></Route>
         </Switch>
     </BrowserRouter>
 )

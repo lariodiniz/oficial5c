@@ -11,7 +11,7 @@ const navbar = (props) => {
         
         return (
             <Navbar expand="lg" variant="dark" className="navbar-color">
-                <Navbar.Brand href="/"><img
+                <Navbar.Brand href="/oficial5c"><img
         src={icone}
         height="40"
         alt="React Bootstrap logo"
@@ -19,8 +19,8 @@ const navbar = (props) => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/regras">Regras</Nav.Link>
+                        <Nav.Link href="/oficial5c">Home</Nav.Link>
+                        <Nav.Link href="/oficial5c/regras">Regras</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
